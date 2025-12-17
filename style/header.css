@@ -1,6 +1,7 @@
 #h {
   padding-top: 36px;
   background-color: rgba(16, 28, 38, 1);
+  padding-bottom: 5px;
   .h {
     display: flex;
     align-items: center;
@@ -31,17 +32,18 @@
         display: flex;
         align-items: center;
         gap: 23px;
-        button {
+        a {
           padding: 8px 30px;
           border: 1.2px solid rgba(206, 206, 206, 1);
           color: rgba(206, 206, 206, 1);
           border-radius: 22px;
           background-color: rgba(16, 28, 38, 1);
         }
-        button:focus {
+        a:hover {
           background-color: rgba(240, 231, 20, 1);
           color: black;
           border: none;
+          box-shadow: 0 0 15px rgba(240, 231, 20, 1);
         }
       }
     }
@@ -55,9 +57,19 @@
   .s1 {
     display: flex;
     justify-content: space-between;
+    position: relative;
+
     .s1-img {
       img {
-        width: 650px;
+        width: 600px;
+      }
+    }
+    .img2 {
+      position: absolute;
+      bottom: 30px;
+      right: 520px;
+      img {
+        width: 190px;
       }
     }
     .s1-text {
@@ -90,6 +102,13 @@
           padding: 11px 22px;
           border-radius: 23px;
           background-color: rgba(240, 231, 20, 1);
+          a{
+            color: #000;
+            font-size: 20px;
+          }
+          ion-icon{
+            font-size: 23px;
+          }
         }
         a {
           font-size: 19px;
@@ -145,7 +164,7 @@
       width: 60px;
       height: 60px;
       left: 503px;
-      bottom: 303px;
+      bottom: 353px;
       clip-path: polygon(
         50% 0%,
         60% 40%,
@@ -156,7 +175,20 @@
         0% 50%,
         40% 40%
       );
+    }
+    .y3:hover {
+      background-color: rgba(240, 231, 20, 1);
       box-shadow: 0 0 25px rgba(240, 231, 20, 0.6);
     }
+
+  }
+  .logo {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .oo:hover {
+    transform: translateY(-15px);
   }
 }

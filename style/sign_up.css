@@ -1,0 +1,102 @@
+body {
+  background-color: rgba(16, 28, 38, 1);
+}
+#s {
+  .s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .y {
+      margin-left: 26px;
+      padding-top: 20px;
+      text-align: center;
+      h1 {
+        font-size: 30px;
+        color: rgba(240, 231, 20, 1);
+        text-shadow: 0 0 15px rgba(240, 231, 20, 1);
+      }
+      p {
+        color: rgba(186, 185, 185, 1);
+      }
+    }
+    .login {
+      margin-top: 30px;
+      margin-left: 400px;
+      display: flex;
+      flex-direction: column;
+      width: 450px;
+      text-align: center;
+      .lin {
+        display: flex;
+        align-items: center;
+        margin-left: 87px;
+        margin-top: 24px;
+        .l {
+          background-color: rgb(255, 255, 255);
+          width: 130px;
+          height: 1px;
+        }
+        a {
+          padding: 0px 5px;
+          font-size: 17px;
+          color: #ffe100;
+        }
+        a:hover{
+        text-shadow: 0 1px 25px rgba(240, 231, 20, 1);
+
+        }
+      }
+      h1 {
+        font-size: 26px;
+        padding-bottom: 23px;
+        color: #fff;
+      }
+      .in {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 80px;
+        gap: 22px;
+        input {
+          padding: 10px;
+          background: none;
+          border-radius: 9px;
+          border-bottom: 2px solid rgba(247, 235, 0, 0.386);
+          color: #fff;
+        }
+        input:focus {
+          box-shadow: 0 0 1px rgba(240, 231, 20, 1);
+        }
+      }
+      .soc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a {
+          width: 300px;
+          padding: 7px 12px;
+          background-color: #fff;
+          margin-left: 10px;
+          margin-top: 23px;
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          ion-icon {
+            margin-right: 19px;
+            font-size: 26px;
+            text-justify: center;
+          }
+        }
+      }
+    }
+    .w {
+      margin-top: 9px;
+      color: rgb(146, 144, 78);
+      font-size: 13px;
+    }
+    .w:hover {
+      text-shadow: 0 0 15px rgba(240, 231, 20, 1);
+    }
+  }
+}
